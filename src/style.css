@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@layer base {
+
+}
+
+.btn {
+    @apply  shadow-md py-3 px-6 rounded-md  transition duration-300 
+}
+.btn-one {
+    @apply bg-red-900 text-blue-500
+}
+.btn-two {
+    @apply bg-white text-gray-500
+}
